@@ -1,0 +1,272 @@
+*,html,body{margin: 0; padding: 0; list-style: none;text-decoration: none;outline: none;box-sizing: border-box}
+
+
+h3{font-weight: bold;}
+
+
+body{width: 100%;
+    background: #d1ccc6}
+
+.wrap{margin-top: -150px}
+.line{width: 100%; 
+    height: 50px;
+    background: #b0a899;
+    margin-top: 160px;
+    box-shadow: 0px 57px 100px 50px #b0a899}
+
+.header{width: 930px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto}
+.logo{width: 163px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat}
+.you{width: 149px;
+    padding-top: 15px}
+.you p{color: #857c6e}
+nav{width: 930px;
+    background: -webkit-linear-gradient(top, #bae351,#719d2a );
+    margin: auto;
+    margin-top: 25px;
+    border: solid 1px #719d2a}
+ul{display: flex;
+    justify-content: space-around;}
+nav ul li a{color: white;
+    text-transform: uppercase;
+    position: relative; 
+    display: block; 
+    padding: 20px;}
+nav ul li a:before{width: 0;
+    height: 0;
+    border: solid 8px transparent; 
+    border-top-color: #719d2a;
+    position: absolute;
+    top: 100%;left: 50%;}
+nav ul li a:hover:before{content: '';}
+
+
+.main{width: 930px;
+    height: 1077px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between}
+.baner{width: 632px;
+    height: 1077px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;}
+.pic{width: 632px;
+    height: 300px;
+    background-image: url(../img/ban.png);
+    border-radius: 5px 5px 0 0;}
+.text{width: 632px;
+    height: 109px;
+    background: #1c273d;
+    margin-top: 0px;
+    border-radius:0 0 5px 5px;}
+.text p{font-size: 14px;
+    color: white;
+    padding: 20px}
+.pic h1{color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-left:   30px; 
+    color: #b3b3af}
+.pic p{color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left:   30px; 
+    color: #b3b3af}
+.ban{width: 632px; 
+    height: 409px;}
+
+
+.products{width: 632px; 
+    height: 663px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 1px #78a22f; 
+    border-radius: 5px;}
+.head{width: 100%;
+    height: 43px;
+    background: #e1deda;
+    display: flex;
+    border-radius: 5px 5px 0 0;
+    border-bottom:solid 1px #78a22f}
+.head h1{color: #695e4a;
+    text-transform: uppercase;
+    padding: 8px}
+.head h1:after{content: '|';
+               padding: 10px}
+.head p{padding: 14px;
+        color:#695e4a;}
+.rss{ width: 25px;
+    background-image: url(../img/rss.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 270px}
+
+.product{width: 100%;
+    height: 160px;
+    background: #e1deda;
+    display: flex;}
+.product:nth-child(2n-1){background: white}
+.product:nth-last-child(1){border-radius:0 0 5px 5px;}
+.screen{width: 165px;
+    height: 124px;
+    background-image: url(../img/scren.png);
+    margin:  13px}
+.price{width: 352px;
+    height: 125px;
+    margin-top: 10px}
+.price p{font-size: 10px;
+    color: #91897a;
+    font-style: italic}
+.price p:nth-child(2){font-size: 14px;
+    color: #91897a;
+    text-decoration: underline;
+    font-style:normal}
+.new{color: #78a22f;text-decoration: underline;
+    text-decoration-color:#83a840 }
+.price h1{font-size: 18px;
+    font-weight: bold}
+.price p:nth-child(4){color: #c9c3b9;
+    font-style: normal}
+.end{color: #8b8272;
+    font-style: normal}
+.but1{border: solid 1px green;
+    padding: 3px;
+    border-radius: 4px 0 0 4px;
+    border-right-color: #bfd499;
+    padding-right: 0px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    background: -webkit-linear-gradient(top, #bae351,#719d2a );
+    box-shadow: 2px 2px 1px #756b5c}
+.but1:before{content: url(../img/galka.png);}
+.but2{border: solid 1px green;
+    padding: 3px;
+    border-radius:  0  4px 4px 0;
+    border-left-color: #90a264;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    background: -webkit-linear-gradient(top, #bae351,#719d2a );
+    box-shadow: 2px 2px 1px #756b5c}
+.but2:before{content: url(../img/star.png);}
+
+
+
+
+.sidebar{width: 280px;
+    height: 1077px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between}
+.sb1{width: 280px;
+    height: 508px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #78a22f;
+    border-radius: 5px;
+    background: #e1ddd9}
+
+.sb2{width: 280px;
+    height: 406px;
+    background: #e1ddd9;
+    overflow-y:scroll;
+    border: solid 1px #78a22f;
+    border-radius: 5px;}
+.sb2head{width: 100px;
+    height: 30px;
+    margin-left: 4px;
+    margin-top: 15px;
+    display: inline-block}
+.sb2head h3{text-transform: uppercase;
+    color: #695e4a;
+    font-size: 14px;}
+.sb2head h4{text-transform: uppercase;
+    color: #78a22f;
+    font-size: 12px;}
+.before::before{content: url(../img/bird.png);
+    margin-left: 20px}
+.before{margin-top: 11px;
+    display: inline-block}
+.sb2text{width: 200px;
+    margin: auto}
+.sb2text h5{font-size: 12px;
+    color: #807a71;
+    margin-top: 20px}
+.sb2text p{font-size: 10px;
+    color: #c5c2bf;}
+
+
+.sb3{width: 280px;
+    height: 139px;
+    background: #e1ddd9;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #78a22f;
+    border-radius: 5px}
+.info{width: 260px;
+    height: 109px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;}
+.sbtext{width: 160px;
+    height: 97px;
+    margin-top: 5px}
+.sbtext h3{text-transform: uppercase;
+    color: #695e4a;
+    font-size: 14px;
+    line-height: 25px}
+.sbtext p{color: #7e786e;
+    font-size: 11px}
+.sbimg{width: 80px;
+    height: 80px;
+    background: black;
+    margin-top: 22px;
+    border: solid 1px #c4bdb2}
+.sbtext p:nth-child(3){color: #c7bba9;
+    font-size: 9px}
+
+
+.footer{width: 100%;
+    height: 53px;
+    background: #212121;
+    margin: auto;
+    margin-top: 65px;
+    display:flex }
+.ft{margin:20px 21%}
+p{color: #909090}
+.footer nav{background: none;
+    width: 515px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+    box-shadow: none}
+.footer nav ul li a{color: #557916;
+    font-size: 10px;
+    padding: 2px;}
+.footer nav ul li a:hover{color: #9bc133;}
+.footer nav ul li a:hover:before{display: none;}
+
+
+   
+
+    
+ 
+
+    
+
+    
+
+ 
+
+
+
